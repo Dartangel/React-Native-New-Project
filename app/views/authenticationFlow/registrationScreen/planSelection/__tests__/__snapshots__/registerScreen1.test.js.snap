@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanSelection PlanSelection snapshot 1`] = `
+<ImageBackground
+  source={
+    Object {
+      "testUri": "../../../app/src/img/splashScreen1.jpeg",
+    }
+  }
+  style={
+    Object {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <Header
+    header="Выберите Свой План"
+    subHeader="Худейте с оптимальным планом тренировок"
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <UNDEFINED
+      subTitle="5-10 минут в день"
+      title="Новичёк"
+    />
+    <UNDEFINED
+      subTitle="10-20 минут в день"
+      title="Продолжающий"
+    />
+    <UNDEFINED
+      subTitle="15-30 минут в день"
+      title="Продвинутый"
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <NextButton
+        onPress={[Function]}
+        title="Cледующие"
+      />
+    </View>
+  </View>
+</ImageBackground>
+`;

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Items Items snapshot 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#d2d2d2",
+      "borderBottomWidth": 2,
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 0.8,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 0.2,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#d2d2d2"
+        size={30}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 0.8,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        delayLongPress={600}
+        extraButtonProps={
+          Object {
+            "rippleColor": "transparent",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontSize": 20,
+              "paddingLeft": 10,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 0.2,
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#08DBA5",
+          "fontSize": 15,
+        }
+      }
+    />
+  </View>
+</View>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanSettings PlanSettings snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <UNDEFINED
+    title="Я в порядке"
+  />
+  <UNDEFINED
+    title="Без прыжков"
+  />
+  <UNDEFINED
+    title="Малая ударная нагрузка"
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <NextButton
+      onPress={[Function]}
+      title="Cледующие"
+    />
+  </View>
+</View>
+`;

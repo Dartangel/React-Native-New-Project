@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportScreen ReportScreen snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#0F2635",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "#d2d2d2",
+        "borderBottomWidth": 3,
+        "height": 50,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#ffffff",
+          "fontSize": 25,
+          "paddingStart": 10,
+          "paddingTop": 5,
+        }
+      }
+    >
+      Отчёт
+    </Text>
+  </View>
+  <ScrollViewMock>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#d2d2d2",
+          "borderBottomWidth": 5,
+          "height": 200,
+          "width": "100%",
+        }
+      }
+    >
+      <Headers
+        header="Всего"
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#0F2635",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.5,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#08DBA5",
+                  "fontSize": 20,
+                }
+              }
+            >
+              5
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#08DBA5",
+                  "fontSize": 20,
+                }
+              }
+            >
+              5.6
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#08DBA5",
+                  "fontSize": 20,
+                }
+              }
+            >
+              00:57
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 0.5,
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#d2d2d2",
+                  "fontSize": 15,
+                }
+              }
+            >
+              Тренировки
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#d2d2d2",
+                  "fontSize": 15,
+                }
+              }
+            >
+              Ккалории
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#d2d2d2",
+                  "fontSize": 15,
+                }
+              }
+            >
+              Длительность
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#d2d2d2",
+          "borderBottomWidth": 5,
+          "height": 200,
+          "width": "100%",
+        }
+      }
+    >
+      <Headers
+        header="История"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#d2d2d2",
+          "borderBottomWidth": 5,
+          "height": 200,
+          "width": "100%",
+        }
+      }
+    >
+      <Headers
+        header="Вес"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#d2d2d2",
+          "borderBottomWidth": 5,
+          "height": 200,
+          "width": "100%",
+        }
+      }
+    >
+      <Items
+        title="Текущий"
+        value="64.00 кг"
+      />
+      <Items
+        title="Самый тяжёлый"
+        value="64.00 кг"
+      />
+      <Items
+        title="Самый лёгкий"
+        value="64.00 кг"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#d2d2d2",
+          "borderBottomWidth": 5,
+          "height": 200,
+          "width": "100%",
+        }
+      }
+    >
+      <Settings
+        button="Редактировать"
+        title="ИМТ(кг/м²)"
+      />
+      <Settings
+        button="Редактировать"
+        title="Рост"
+      />
+      <Settings
+        button="181.0 см"
+        title="Текущий"
+      />
+    </View>
+  </ScrollViewMock>
+</View>
+`;

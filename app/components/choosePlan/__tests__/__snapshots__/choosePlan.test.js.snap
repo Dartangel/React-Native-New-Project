@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChoosePlan ChoosePlan snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "rgba(0, 72, 82, 0.6)",
+      "borderRadius": 25,
+      "height": "17%",
+      "justifyContent": "center",
+      "marginBottom": 20,
+      "marginHorizontal": 20,
+      "paddingVertical": 20,
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+  >
+    <Text
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "#ffffff",
+          "fontSize": 20,
+          "justifyContent": "center",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "#ffffff",
+          "fontSize": 15,
+          "justifyContent": "center",
+        }
+      }
+    />
+  </TouchableOpacity>
+</View>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Header snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 0.05,
+      "flexDirection": "row",
+      "marginBottom": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 0.15,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <IconComponent
+      name="flag-variant"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 0.7,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#ffffff",
+          "fontSize": 15,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 0.15,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#ffffff",
+          "fontSize": 15,
+        }
+      }
+    >
+      0/7
+    </Text>
+  </View>
+</View>
+`;

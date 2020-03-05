@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Header snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 0.25,
+      "height": "30%",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#ffffff",
+        "fontSize": 20,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "alignItems": "center",
+        "color": "#ffffff",
+        "justifyContent": "center",
+        "paddingLeft": 15,
+      }
+    }
+  />
+</View>
+`;

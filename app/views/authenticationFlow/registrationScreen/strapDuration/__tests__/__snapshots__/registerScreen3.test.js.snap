@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StrapDuration StrapDuration snapshot 1`] = `
+<ImageBackground
+  source={
+    Object {
+      "testUri": "../../../app/src/img/splashScreen1.jpeg",
+    }
+  }
+  style={
+    Object {
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Header
+    header="Сколько Вы можете 
+ простоять в планке?"
+    subHeader="Ваши данные помогут нам сделать ваши 
+ 					 тренировки эффективнее"
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+      }
+    }
+  >
+    <Picker
+      itemSpace={50}
+      itemStyle={null}
+      onValueChange={[Function]}
+      pickerData={
+        Array [
+          "Более 120c",
+          "0-30c",
+          "30-60c",
+          "60-120c",
+        ]
+      }
+      selectedValue="0-30"
+      style={
+        Object {
+          "alignContent": "center",
+          "backgroundColor": "white",
+          "height": "65%",
+          "paddingTop": 20,
+          "width": "100%",
+        }
+      }
+      textColor="#333"
+      textSize={26}
+    />
+    <NextButton
+      onPress={[Function]}
+      title="Cледующие"
+    />
+  </View>
+</ImageBackground>
+`;

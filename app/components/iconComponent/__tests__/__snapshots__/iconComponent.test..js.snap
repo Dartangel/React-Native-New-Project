@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconComponent IconComponent snapshot 1`] = `
+<Icon
+  allowFontScaling={false}
+  color="#FFF"
+  size={25}
+/>
+`;

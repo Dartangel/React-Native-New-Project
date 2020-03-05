@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KneesProblems KneesProblems snapshot 1`] = `
+<ImageBackground
+  source={
+    Object {
+      "testUri": "../../../app/src/img/splashScreen1.jpeg",
+    }
+  }
+  style={
+    Object {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <Header
+    header="У вас есть проблемы с коленями?"
+    subHeader="Выберите тренировку по своему состоянию"
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <UNDEFINED
+      title="Я в порядке"
+    />
+    <UNDEFINED
+      title="Без прыжков"
+    />
+    <UNDEFINED
+      title="Малая ударная нагрузка"
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <NextButton
+        onPress={[Function]}
+        title="Cледующие"
+      />
+    </View>
+  </View>
+</ImageBackground>
+`;

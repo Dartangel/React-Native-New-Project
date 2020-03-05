@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PickStrength PickStrength snapshot 1`] = `
+<ImageBackground
+  source={
+    Object {
+      "testUri": "../../../app/src/img/splashScreen1.jpeg",
+    }
+  }
+  style={
+    Object {
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Header
+    header="Сколько раз Вы можете отжаться?"
+    subHeader="Ваши данные помогут нам сделать ваши 
+ 					 тренировки эффективнее"
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Picker
+      itemSpace={25}
+      itemStyle={null}
+      onValueChange={[Function]}
+      pickerData={
+        Array [
+          "0-5",
+          "5-10",
+          "10-20",
+          "Более 20",
+          "",
+        ]
+      }
+      style={
+        Object {
+          "alignContent": "center",
+          "backgroundColor": "white",
+          "height": "65%",
+          "paddingTop": 20,
+          "width": "100%",
+        }
+      }
+      textColor="#333"
+      textSize={26}
+    />
+    <NextButton
+      onPress={[Function]}
+      title="Cледующие"
+    />
+  </View>
+</ImageBackground>
+`;

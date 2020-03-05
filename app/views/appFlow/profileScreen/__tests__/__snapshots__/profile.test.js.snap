@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileScreen ProfileScreen snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#0F2635",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "#d2d2d2",
+        "borderBottomWidth": 3,
+        "height": 50,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#ffffff",
+          "fontSize": 25,
+          "paddingStart": 10,
+          "paddingTop": 5,
+        }
+      }
+    >
+      Я
+    </Text>
+  </View>
+  <ScrollViewMock>
+    <CodeBlock
+      header="Разминка"
+      list={
+        Array [
+          Object {
+            "header": "Напоминание",
+            "icon": "md-alarm",
+            "time": "21:00",
+          },
+          Object {
+            "header": "Обратный отсчёт",
+            "icon": "ios-sync",
+            "time": "10 сек",
+          },
+          Object {
+            "header": "Отдых при тренировке",
+            "icon": "md-cafe",
+            "time": "10 сек",
+          },
+          Object {
+            "header": "Настройки звука",
+            "icon": "md-volume-high",
+            "time": null,
+          },
+        ]
+      }
+    />
+    <CodeBlock
+      header="Общие настройки"
+      list={
+        Array [
+          Object {
+            "header": "Синхронизация с приложением Google",
+            "icon": "ios-heart",
+            "time": null,
+          },
+          Object {
+            "header": "Данные о здоровье",
+            "icon": "ios-medkit",
+            "time": null,
+          },
+          Object {
+            "header": "Метрические единици измерения",
+            "icon": "ios-appstore",
+            "time": null,
+          },
+          Object {
+            "header": "Выбор Языка",
+            "icon": "ios-globe",
+            "time": null,
+          },
+          Object {
+            "header": "Сбросить результаты",
+            "icon": "ios-refresh",
+            "time": null,
+          },
+        ]
+      }
+    />
+    <CodeBlock
+      header="Голосовые Опции"
+      list={
+        Array [
+          Object {
+            "header": "Тест речи",
+            "icon": "ios-heart",
+            "time": null,
+          },
+          Object {
+            "header": "Выбрать синтезатор речи TTS",
+            "icon": "md-settings",
+            "time": null,
+          },
+          Object {
+            "header": "Скачать синтезатор речи TTS",
+            "icon": "md-download",
+            "time": null,
+          },
+          Object {
+            "header": "Голос язык",
+            "icon": "ios-mic",
+            "time": null,
+          },
+          Object {
+            "header": "Скачать больше синтезаторов речи",
+            "icon": "ios-code-download",
+            "time": null,
+          },
+          Object {
+            "header": "TTS Настройки устройства",
+            "icon": "ios-options",
+            "time": null,
+          },
+        ]
+      }
+    />
+    <CodeBlock
+      header="Поддержите нас"
+      list={
+        Array [
+          Object {
+            "header": "Поделиться с друзьями",
+            "icon": "md-share",
+            "time": null,
+          },
+          Object {
+            "header": "Оцените нас",
+            "icon": "md-checkbox",
+            "time": null,
+          },
+          Object {
+            "header": "Отзыв",
+            "icon": "ios-paper-plane",
+            "time": null,
+          },
+          Object {
+            "header": "Политика конфиденциальности",
+            "icon": "ios-eye",
+            "time": null,
+          },
+        ]
+      }
+    />
+  </ScrollViewMock>
+</View>
+`;
