@@ -6,7 +6,7 @@ import CodeBlock from './components/codeBlock';
 import { blocks } from '../../../../__mocks__/temp';
 
 
-const ProfileScreen = () => {
+const ProfileScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <View style={styles.header}>
@@ -17,7 +17,7 @@ const ProfileScreen = () => {
                     console.log(arrays);
 
                     return (
-                        <CodeBlock list={arrays} header={header} />
+                        <CodeBlock list={arrays} header={header} navigation={navigation} />
                     )
                 })}
             </ScrollView>

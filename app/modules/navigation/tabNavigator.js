@@ -2,12 +2,11 @@ import { createBottomTabNavigator } from 'react-navigation-tabs';
 import React from 'react';
 import ReportScreen from '../../views/appFlow/reportScreen/reportScreen';
 import MainScreen from '../../views/appFlow/mainScreen/mainScreen';
-import ProfileScreen from '../../views/appFlow/profileScreen/profile'
-import SwitchNavigator from './settingSwitchNavigator';
 import { colors, titles } from '../../services/constants';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Icon1 from 'react-native-vector-icons/MaterialIcons';
 import Feather from 'react-native-vector-icons/Feather';
+import SettingStackNavigator from './settingStackNavigator'
 
 const TabBarNavigator = createBottomTabNavigator({
 
@@ -31,8 +30,8 @@ const TabBarNavigator = createBottomTabNavigator({
         },
     },
 
-    ProfileScreen: {
-        screen: ProfileScreen,
+    SettingStackNavigator: {
+        screen: SettingStackNavigator,
         navigationOptions: {
             tabBarLabel: titles.I_AM,
             tabBarIcon: ({ tintColor }) => (

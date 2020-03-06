@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/Ionicons'
 import { colors } from '../../../../../services/constants';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
-const Items = ({ header, time, icon }) => {
+const Items = ({ header, time, icon, screen, navigation }) => {
     return (
         <View style={styles.itemsRow}>
             <View style={styles.titleView}>
@@ -13,7 +13,7 @@ const Items = ({ header, time, icon }) => {
                     <Icon name={icon} color={colors.grey} size={30} />
                 </View>
                 <View style={styles.textView}>
-                    <TouchableOpacity >
+                    <TouchableOpacity onPress={() => navigation.navigate(screen)}>
                         <Text style={styles.text}>{header}</Text>
                     </TouchableOpacity>
                 </View>

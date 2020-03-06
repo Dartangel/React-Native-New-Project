@@ -5,9 +5,9 @@ import Settings from './components/settings/settings';
 import Report from './components/report/report';
 import Items from './components/items/items';
 import Headers from './components/headers/headers';
-import { titles } from '../../../services/constants';
+import { titles, ROUTERS } from '../../../services/constants';
 
-const ReportScreen = () => {
+const ReportScreen = ({ navigation }) => {
 
     return (
         <View style={styles.container}>
@@ -31,9 +31,9 @@ const ReportScreen = () => {
                     <Items title={titles.THE_EASIEST} value={'64.00 кг'} />
                 </View>
                 <View style={styles.warmupContainer}>
-                    <Settings title={titles.BMI} button={titles.EDIT} />
-                    <Settings title={titles.HEIGHT} button={titles.EDIT} />
-                    <Settings title={titles.CURRENT} button={'181.0 см'} />
+                    <Settings title={titles.BMI} button={titles.EDIT} navigation={navigation} screen={ROUTERS.Weight} />
+                    <Settings title={titles.HEIGHT} button={titles.EDIT} navigation={navigation} screen={ROUTERS.Weight} />
+                    <Settings title={titles.CURRENT} button={'181.0 см'} navigation={navigation} screen={ROUTERS.Weight} />
                 </View>
             </ScrollView>
         </View>

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../../style'
 import { View, Text, TouchableOpacity } from 'react-native';
 
-const Settings = ({ title, button }) => {
+const Settings = ({ title, button, navigation, screen }) => {
     return (
         <View style={styles.itemsRow}>
             <View style={styles.titleView}>
@@ -11,7 +11,8 @@ const Settings = ({ title, button }) => {
                 </View>
             </View>
             <View style={styles.buttonView}>
-                <TouchableOpacity style={styles.timeText}>
+                <TouchableOpacity onPress={() => navigation.navigate(screen)}
+                    style={styles.timeText}>
                     <Text style={styles.timeText}>{button}</Text>
                 </TouchableOpacity>
             </View>
