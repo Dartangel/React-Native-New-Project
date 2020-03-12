@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { View, Text, KeyboardAvoidingView, ImageBackground, AsyncStorage } from 'react-native';
-import style from './style';
 import { images } from '../../../../services/utils';
-import { titles, ROUTERS } from '../../../../services/constants';
+import { ROUTERS } from '../../../../services/constants';
 import NextButton from '../../../../components/nextButton';
 import styles from './style';
 import { TextInputs } from './component';
 import { ScrollView } from 'react-native-gesture-handler';
+import titles from '../../../../services/constants';
 
 export default function SignUp({ navigation }) {
 

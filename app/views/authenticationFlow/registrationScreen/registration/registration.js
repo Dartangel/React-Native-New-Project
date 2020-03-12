@@ -3,7 +3,8 @@ import { View, Text, KeyboardAvoidingView, ImageBackground, AsyncStorage } from 
 import style from './styles';
 import { images } from '../../../../services/utils';
 import styles from './styles';
-import { ROUTERS, titles } from '../../../../services/constants';
+import { ROUTERS } from '../../../../services/constants';
+import titles from '../../../../services/constants';
 import NextButton from '../../../../components/nextButton';
 import TextInputs from './components'
 import { ScrollView } from 'react-native-gesture-handler';

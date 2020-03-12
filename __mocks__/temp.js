@@ -1,4 +1,4 @@
-import { titles, ROUTERS } from "../app/services/constants";
+import titles, { ROUTERS } from "../app/services/constants";
 
 export const itemList = ['0-5', '5-10', '10-20', 'Более 20', ''];
 

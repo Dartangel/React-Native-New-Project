@@ -6,7 +6,6 @@ import PrivacyPolicy from '../../views/appFlow/profileScreen/components/privacyP
 import SetLanguage from '../../views/appFlow/profileScreen/components/setLanguage'
 import SetRelaxation from '../../views/appFlow/profileScreen/components/setRelaxation'
 import SetRimender from '../../views/appFlow/profileScreen/components/setReminder'
-import Weight from '../../../__mocks__/mockScreens/setWeight'
 import SoundSettings from '../../views/appFlow/profileScreen/components/soundSet'
 import Timer from '../../views/appFlow/profileScreen/components/timer'
 import TreningScreen from '../../views/appFlow/profileScreen/components/treningScreen'
@@ -20,7 +19,6 @@ export default SettingStackNavigator = createAppContainer(createStackNavigator(
         Language: SetLanguage,
         Relaxation: SetRelaxation,
         Reminder: SetRimender,
-        Weight: Weight,
         Sound: SoundSettings,
         Timer: Timer,
         Trening: TreningScreen,

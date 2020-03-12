@@ -1,12 +1,12 @@
 import React from 'react';
-import { View, Text, TouchableOpacity, ScrollView, Dimensions } from 'react-native';
+import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import styles from './style';
-import { titles } from '../../../services/constants/index';
 import IconComponent from '../../../components/iconComponent/index';
 import SliderComponent from '../../../components/sliderComponent/index';
 import { images } from '../../../services/utils';
-import { items, headers } from '../../../../__mocks__/temp'
+import { headers, items } from '../../../../__mocks__/temp'
 import Header from './components/header/header';
+import titles from '../../../services/constants';
 import MenuItems from './components/menuItems';
 
 

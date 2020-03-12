@@ -2,9 +2,11 @@ import React from 'react';
 import { ImageBackground } from 'react-native';
 import styles from './styles';
 import { images } from '../../../../services/utils';
-import { ROUTERS, titles } from '../../../../services/constants';
+import { ROUTERS } from '../../../../services/constants';
 import PlanSettings from './components';
 import Header from '../../../../components/header';
+import titles from '../../../../services/constants';
+
 
 export default function KneesProblems({ navigation }) {
 

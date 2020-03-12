@@ -5,7 +5,8 @@ import Settings from './components/settings/settings';
 import Report from './components/report/report';
 import Items from './components/items/items';
 import Headers from './components/headers/headers';
-import { titles, ROUTERS } from '../../../services/constants';
+import { ROUTERS } from '../../../services/constants';
+import titles from '../../../services/constants/index';
 
 const ReportScreen = ({ navigation }) => {
 

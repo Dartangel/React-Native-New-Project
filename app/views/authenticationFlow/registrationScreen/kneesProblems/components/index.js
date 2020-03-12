@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import styles from '../styles';
-import { titles } from '../../../../../services/constants';
+import titles from '../../../../../services/constants';
 import NextButton from '../../../../../components/nextButton';
 import ChoosePlan from '../../../../../components/choosePlan';
 

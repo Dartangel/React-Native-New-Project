@@ -3,7 +3,8 @@ import { View, ImageBackground } from 'react-native';
 import styles from './styles';
 import { images } from '../../../../services/utils';
 import { Picker } from 'react-native-wheel-pick';
-import { ROUTERS, titles } from '../../../../services/constants';
+import titles from '../../../../services/constants';
+import { ROUTERS } from '../../../../services/constants';
 import NextButton from '../../../../components/nextButton';
 import Header from '../../../../components/header';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style';
 import { View, Text, ScrollView } from 'react-native';
-import { titles } from '../../../services/constants';
+import titles from '../../../services/constants';
 import CodeBlock from './components/codeBlock';
 import { blocks } from '../../../../__mocks__/temp';
 
