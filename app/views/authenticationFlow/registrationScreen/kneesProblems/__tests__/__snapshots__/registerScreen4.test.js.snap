@@ -15,8 +15,8 @@ exports[`KneesProblems KneesProblems snapshot 1`] = `
   }
 >
   <Header
-    header="У вас есть проблемы с коленями?"
-    subHeader="Выберите тренировку по своему состоянию"
+    header="Do you have a problems with knees?"
+    subHeader="Choose a workout according to your condition"
   />
   <View
     style={
@@ -25,14 +25,14 @@ exports[`KneesProblems KneesProblems snapshot 1`] = `
       }
     }
   >
-    <UNDEFINED
-      title="Я в порядке"
+    <ChoosePlan
+      title="I am OK"
     />
-    <UNDEFINED
-      title="Без прыжков"
+    <ChoosePlan
+      title="Without jumping"
     />
-    <UNDEFINED
-      title="Малая ударная нагрузка"
+    <ChoosePlan
+      title="Low impact"
     />
     <View
       style={
@@ -43,7 +43,7 @@ exports[`KneesProblems KneesProblems snapshot 1`] = `
     >
       <NextButton
         onPress={[Function]}
-        title="Cледующие"
+        title="Next"
       />
     </View>
   </View>

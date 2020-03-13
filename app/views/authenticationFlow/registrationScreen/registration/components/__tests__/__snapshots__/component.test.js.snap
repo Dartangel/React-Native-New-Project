@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInputs TextInputs snapshot 1`] = `
+<View>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder={Object {}}
+    placeholderTextColor="white"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "rgba(0, 72, 82, 0.6)",
+        "borderBottomColor": "#ffffff",
+        "borderBottomWidth": 1,
+        "borderRadius": 25,
+        "color": "#08DBA5",
+        "fontSize": 20,
+        "height": 60,
+        "marginBottom": 10,
+        "paddingHorizontal": 10,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;

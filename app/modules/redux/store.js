@@ -8,7 +8,6 @@ import createSagaMiddleware from 'redux-saga'
 import AsyncStorage from '@react-native-community/async-storage';
 import rootSaga from './saga';
 
-
 const persistConfig = {
     key: 'root',
     storage: AsyncStorage,

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, KeyboardAvoidingView, ImageBackground, AsyncStorage } from 'react-native';
-import style from './styles';
-import { images } from '../../../../services/utils';
 import styles from './styles';
+import { images } from '../../../../services/utils';
 import { ROUTERS } from '../../../../services/constants';
 import titles from '../../../../services/constants';
 import NextButton from '../../../../components/nextButton';
@@ -37,7 +36,7 @@ export default function Registration({ navigation }) {
         <KeyboardAvoidingView behavior="padding" keyboardVerticalOffset="-250" keyboardShouldPersistTaps={'always'} >
             <ScrollView>
                 <ImageBackground style={styles.image} source={images.logerImage2}>
-                    <View style={style.container}>
+                    <View style={styles.container}>
                         <Text style={styles.text}>{titles.REGISTRATION}</Text>
                         {TextInputs(titles.USERNAME, setUsername, false)}
                         {TextInputs(titles.PASSWORD, setPassword, true)}

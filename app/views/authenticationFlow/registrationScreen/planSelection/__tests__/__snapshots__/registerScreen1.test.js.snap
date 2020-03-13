@@ -16,7 +16,7 @@ exports[`PlanSelection PlanSelection snapshot 1`] = `
 >
   <Header
     header="Выберите Свой План"
-    subHeader="Худейте с оптимальным планом тренировок"
+    subHeader="Lose weight with an optimal workout plan"
   />
   <View
     style={
@@ -25,17 +25,17 @@ exports[`PlanSelection PlanSelection snapshot 1`] = `
       }
     }
   >
-    <UNDEFINED
+    <ChoosePlan
       subTitle="5-10 минут в день"
-      title="Новичёк"
+      title="Newbie"
     />
-    <UNDEFINED
+    <ChoosePlan
       subTitle="10-20 минут в день"
-      title="Продолжающий"
+      title="Continuing"
     />
-    <UNDEFINED
+    <ChoosePlan
       subTitle="15-30 минут в день"
-      title="Продвинутый"
+      title="Advanced"
     />
     <View
       style={
@@ -46,7 +46,7 @@ exports[`PlanSelection PlanSelection snapshot 1`] = `
     >
       <NextButton
         onPress={[Function]}
-        title="Cледующие"
+        title="Next"
       />
     </View>
   </View>

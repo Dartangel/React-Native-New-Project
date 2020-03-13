@@ -32,9 +32,9 @@ const ReportScreen = ({ navigation }) => {
                     <Items title={titles.THE_EASIEST} value={'64.00 кг'} />
                 </View>
                 <View style={styles.warmupContainer}>
-                    <Settings title={titles.BMI} button={titles.EDIT} navigation={navigation} screen={ROUTERS.Weight} />
-                    <Settings title={titles.HEIGHT} button={titles.EDIT} navigation={navigation} screen={ROUTERS.Weight} />
-                    <Settings title={titles.CURRENT} button={'181.0 см'} navigation={navigation} screen={ROUTERS.Weight} />
+                    <Settings title={titles.BMI} button={titles.EDIT} screen={ROUTERS.Weight} />
+                    <Settings title={titles.HEIGHT} button={titles.EDIT} screen={ROUTERS.Weight} />
+                    <Settings title={titles.CURRENT} button={'181.0 см'} screen={ROUTERS.Weight} />
                 </View>
             </ScrollView>
         </View>

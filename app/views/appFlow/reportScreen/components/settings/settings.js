@@ -20,7 +20,7 @@ const Settings = ({ title, button }) => {
                     onRequestClose={() => {
                         changeVisible(false);
                     }}>
-                    <Weight onPress={changeVisible} />
+                    <Weight onClick={changeVisible} />
                 </Modal>
             </KeyboardAvoidingView>
             <View style={styles.buttonView}>
@@ -28,6 +28,7 @@ const Settings = ({ title, button }) => {
                     style={styles.timeText}>
                     <Text style={styles.timeText}>{button}</Text>
                 </TouchableOpacity>
+
             </View>
         </View>
     )

@@ -1,10 +1,9 @@
 import { colors } from "../../../../services/constants";
 import { StyleSheet, Dimensions } from 'react-native';
 
-export const width = Math.round(Dimensions.get('window').width);
-export const height = Math.round(Dimensions.get('window').height)
+const height = Math.round(Dimensions.get('window').height)
 
-export default styles = StyleSheet.create({
+const styles = StyleSheet.create({
 
     container: {
         flex: 1,
@@ -17,7 +16,7 @@ export default styles = StyleSheet.create({
     },
     image: {
         width: '100%',
-        height: height - 24
+        height: height
     },
     wrapper: {
         flex: 1,
@@ -43,4 +42,6 @@ export default styles = StyleSheet.create({
         paddingBottom: 10,
         color: colors.white
     },
-})
+});
+
+export default styles;

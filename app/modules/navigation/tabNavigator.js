@@ -51,7 +51,7 @@ const TabBarNavigator = createBottomTabNavigator({
             showIcon: true,
             style: {
                 height: 60,
-                backgroundColor: '#0F2635',
+                backgroundColor: colors.mainBackground,
             },
             labelStyle: {
                 fontSize: 14,

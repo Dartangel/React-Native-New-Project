@@ -2,7 +2,7 @@ import { colors } from "../../../../services/constants";
 import { StyleSheet, Dimensions } from 'react-native';
 export const height = Math.round(Dimensions.get('window').height)
 
-export default styles = StyleSheet.create({
+const styles = StyleSheet.create({
 
     nextButton: {
         alignItems: 'center'
@@ -50,4 +50,5 @@ export default styles = StyleSheet.create({
         marginTop: 30,
     },
 
-})
+});
+export default styles;

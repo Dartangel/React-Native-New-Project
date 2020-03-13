@@ -4,7 +4,7 @@ exports[`Settings Settings snapshot 1`] = `
 <View
   style={
     Object {
-      "borderBottomColor": "#d2d2d2",
+      "borderBottomColor": "grey",
       "borderBottomWidth": 2,
       "flex": 1,
       "flexDirection": "row",
@@ -39,6 +39,24 @@ exports[`Settings Settings snapshot 1`] = `
       />
     </View>
   </View>
+  <KeyboardAvoidingView
+    behavior="padding"
+    enabled={true}
+    keyboardShouldPersistTaps="always"
+    keyboardVerticalOffset="-250"
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <Weight
+        onClick={[Function]}
+      />
+    </Component>
+  </KeyboardAvoidingView>
   <View
     style={
       Object {
@@ -50,12 +68,14 @@ exports[`Settings Settings snapshot 1`] = `
   >
     <TouchableOpacity
       activeOpacity={0.2}
+      onPress={[Function]}
       style={
         Object {
           "color": "#08DBA5",
           "fontSize": 15,
         }
       }
+      visible={true}
     >
       <Text
         style={

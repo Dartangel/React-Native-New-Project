@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp SignUp snapshot 1`] = `
+<KeyboardAvoidingView
+  behavior="padding"
+  enabled={true}
+  keyboardShouldPersistTaps="always"
+  keyboardVerticalOffset="-250"
+>
+  <ComponentWrapper>
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../app/src/img/splashScreen1.jpeg",
+        }
+      }
+      style={
+        Object {
+          "height": 1334,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingLeft": 60,
+            "paddingRight": 60,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontSize": 35,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          Authorization
+        </Text>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Username"
+            placeholderTextColor="white"
+            rejectResponderTermination={true}
+            secureTextEntry={false}
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "backgroundColor": "rgba(0, 72, 82, 0.6)",
+                "borderBottomColor": "#ffffff",
+                "borderBottomWidth": 1,
+                "borderRadius": 25,
+                "color": "#08DBA5",
+                "fontSize": 20,
+                "height": 60,
+                "marginBottom": 30,
+                "paddingStart": 20,
+              }
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Password"
+            placeholderTextColor="white"
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "backgroundColor": "rgba(0, 72, 82, 0.6)",
+                "borderBottomColor": "#ffffff",
+                "borderBottomWidth": 1,
+                "borderRadius": 25,
+                "color": "#08DBA5",
+                "fontSize": 20,
+                "height": 60,
+                "marginBottom": 30,
+                "paddingStart": 20,
+              }
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "paddingHorizontal": "20%",
+            }
+          }
+        >
+          <NextButton
+            onPress={[Function]}
+            title="Enter"
+          />
+        </View>
+      </View>
+    </ImageBackground>
+  </ComponentWrapper>
+</KeyboardAvoidingView>
+`;

@@ -25,11 +25,11 @@ exports[`FirstScreen FirstScreen snapshot 1`] = `
   >
     <FirstButtons
       onPress={[Function]}
-      title="Вход"
+      title="Enter"
     />
     <FirstButtons
       onPress={[Function]}
-      title="Регистрация"
+      title="Registration"
     />
   </View>
 </ImageBackground>

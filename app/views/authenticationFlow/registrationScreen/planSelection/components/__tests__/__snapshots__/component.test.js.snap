@@ -8,17 +8,17 @@ exports[`PlanSettings PlanSettings snapshot 1`] = `
     }
   }
 >
-  <UNDEFINED
+  <ChoosePlan
     subTitle="5-10 минут в день"
-    title="Новичёк"
+    title="Newbie"
   />
-  <UNDEFINED
+  <ChoosePlan
     subTitle="10-20 минут в день"
-    title="Продолжающий"
+    title="Continuing"
   />
-  <UNDEFINED
+  <ChoosePlan
     subTitle="15-30 минут в день"
-    title="Продвинутый"
+    title="Advanced"
   />
   <View
     style={
@@ -29,7 +29,7 @@ exports[`PlanSettings PlanSettings snapshot 1`] = `
   >
     <NextButton
       onPress={[Function]}
-      title="Cледующие"
+      title="Next"
     />
   </View>
 </View>

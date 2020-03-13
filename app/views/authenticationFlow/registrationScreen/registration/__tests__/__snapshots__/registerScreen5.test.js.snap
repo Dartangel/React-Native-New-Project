@@ -1,14 +1,138 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`RegistrationScreen5 RegistrationScreen5 snapshot 1`] = `
-<View>
-  <TouchableOpacity
-    activeOpacity={0.2}
-    onPress={[Function]}
-  >
-    <Text>
-       Вход 
-    </Text>
-  </TouchableOpacity>
-</View>
+exports[`Registration Registration snapshot 1`] = `
+<KeyboardAvoidingView
+  behavior="padding"
+  enabled={true}
+  keyboardShouldPersistTaps="always"
+  keyboardVerticalOffset="-250"
+>
+  <ComponentWrapper>
+    <ImageBackground
+      source={
+        Object {
+          "testUri": "../../../app/src/img/splashScreen1.jpeg",
+        }
+      }
+      style={
+        Object {
+          "height": 1310,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingLeft": 60,
+            "paddingRight": 60,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontSize": 35,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          Registration
+        </Text>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Username"
+            placeholderTextColor="white"
+            rejectResponderTermination={true}
+            secureTextEntry={false}
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "backgroundColor": "rgba(0, 72, 82, 0.6)",
+                "borderBottomColor": "#ffffff",
+                "borderBottomWidth": 1,
+                "borderRadius": 25,
+                "color": "#08DBA5",
+                "fontSize": 20,
+                "height": 60,
+                "marginBottom": 10,
+                "paddingHorizontal": 10,
+              }
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Password"
+            placeholderTextColor="white"
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "backgroundColor": "rgba(0, 72, 82, 0.6)",
+                "borderBottomColor": "#ffffff",
+                "borderBottomWidth": 1,
+                "borderRadius": 25,
+                "color": "#08DBA5",
+                "fontSize": 20,
+                "height": 60,
+                "marginBottom": 10,
+                "paddingHorizontal": 10,
+              }
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Confirm password"
+            placeholderTextColor="white"
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "backgroundColor": "rgba(0, 72, 82, 0.6)",
+                "borderBottomColor": "#ffffff",
+                "borderBottomWidth": 1,
+                "borderRadius": 25,
+                "color": "#08DBA5",
+                "fontSize": 20,
+                "height": 60,
+                "marginBottom": 10,
+                "paddingHorizontal": 10,
+              }
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+            }
+          }
+        >
+          <NextButton
+            onPress={[Function]}
+            title="Next"
+          />
+        </View>
+      </View>
+    </ImageBackground>
+  </ComponentWrapper>
+</KeyboardAvoidingView>
 `;

@@ -1,8 +1,8 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import { View, Text } from 'react-native';
 import styles from './style';
 
-const ItemComponent = ({text, count}) => {
+const ItemComponent = ({ text, count }) => {
   return (
     <View style={styles.container}>
       <View style={styles.headerTitle}>

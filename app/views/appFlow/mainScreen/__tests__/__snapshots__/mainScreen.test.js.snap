@@ -35,7 +35,7 @@ exports[`MainScreen MainScreen snapshot 1`] = `
           }
         }
       >
-        СБРОСИТЬ ВЕС
+        Lose Weight
       </Text>
     </View>
     <View
@@ -115,31 +115,31 @@ exports[`MainScreen MainScreen snapshot 1`] = `
       </View>
       <React.Fragment>
         <Header
-          header="НЕДЕЛЯ 1"
+          header="First week"
         />
         <MenuItems
           title={
             Array [
               Object {
-                "text": "1 - й День",
+                "text": "First day",
               },
               Object {
-                "text": "2 - й День",
+                "text": "Second day",
               },
               Object {
-                "text": "3 - й День",
+                "text": "Third day",
               },
               Object {
-                "text": "4 - й День",
+                "text": "Fourth day",
               },
               Object {
-                "text": "5 - й День",
+                "text": "Fifth day",
               },
               Object {
-                "text": "6 - й День",
+                "text": "Sixth day",
               },
               Object {
-                "text": "7 - й День",
+                "text": "Seventh day",
               },
             ]
           }
@@ -147,31 +147,31 @@ exports[`MainScreen MainScreen snapshot 1`] = `
       </React.Fragment>
       <React.Fragment>
         <Header
-          header="НЕДЕЛЯ 2"
+          header="Second week"
         />
         <MenuItems
           title={
             Array [
               Object {
-                "text": "1 - й День",
+                "text": "First day",
               },
               Object {
-                "text": "2 - й День",
+                "text": "Second day",
               },
               Object {
-                "text": "3 - й День",
+                "text": "Third day",
               },
               Object {
-                "text": "4 - й День",
+                "text": "Fourth day",
               },
               Object {
-                "text": "5 - й День",
+                "text": "Fifth day",
               },
               Object {
-                "text": "6 - й День",
+                "text": "Sixth day",
               },
               Object {
-                "text": "7 - й День",
+                "text": "Seventh day",
               },
             ]
           }
@@ -179,31 +179,31 @@ exports[`MainScreen MainScreen snapshot 1`] = `
       </React.Fragment>
       <React.Fragment>
         <Header
-          header="НЕДЕЛЯ 3"
+          header="Third week"
         />
         <MenuItems
           title={
             Array [
               Object {
-                "text": "1 - й День",
+                "text": "First day",
               },
               Object {
-                "text": "2 - й День",
+                "text": "Second day",
               },
               Object {
-                "text": "3 - й День",
+                "text": "Third day",
               },
               Object {
-                "text": "4 - й День",
+                "text": "Fourth day",
               },
               Object {
-                "text": "5 - й День",
+                "text": "Fifth day",
               },
               Object {
-                "text": "6 - й День",
+                "text": "Sixth day",
               },
               Object {
-                "text": "7 - й День",
+                "text": "Seventh day",
               },
             ]
           }
@@ -211,31 +211,31 @@ exports[`MainScreen MainScreen snapshot 1`] = `
       </React.Fragment>
       <React.Fragment>
         <Header
-          header="НЕДЕЛЯ 4"
+          header="Fourth week"
         />
         <MenuItems
           title={
             Array [
               Object {
-                "text": "1 - й День",
+                "text": "First day",
               },
               Object {
-                "text": "2 - й День",
+                "text": "Second day",
               },
               Object {
-                "text": "3 - й День",
+                "text": "Third day",
               },
               Object {
-                "text": "4 - й День",
+                "text": "Fourth day",
               },
               Object {
-                "text": "5 - й День",
+                "text": "Fifth day",
               },
               Object {
-                "text": "6 - й День",
+                "text": "Sixth day",
               },
               Object {
-                "text": "7 - й День",
+                "text": "Seventh day",
               },
             ]
           }

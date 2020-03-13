@@ -16,9 +16,8 @@ exports[`PickStrength PickStrength snapshot 1`] = `
   }
 >
   <Header
-    header="Сколько раз Вы можете отжаться?"
-    subHeader="Ваши данные помогут нам сделать ваши 
- 					 тренировки эффективнее"
+    header="How many times can you push out?"
+    subHeader="Your data will help us make your workouts more effective."
   />
   <View
     style={
@@ -56,7 +55,7 @@ exports[`PickStrength PickStrength snapshot 1`] = `
     />
     <NextButton
       onPress={[Function]}
-      title="Cледующие"
+      title="Next"
     />
   </View>
 </ImageBackground>

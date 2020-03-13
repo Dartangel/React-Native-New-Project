@@ -12,7 +12,7 @@ exports[`ReportScreen ReportScreen snapshot 1`] = `
   <View
     style={
       Object {
-        "borderBottomColor": "#d2d2d2",
+        "borderBottomColor": "grey",
         "borderBottomWidth": 3,
         "height": 50,
         "width": "100%",
@@ -29,14 +29,14 @@ exports[`ReportScreen ReportScreen snapshot 1`] = `
         }
       }
     >
-      Отчёт
+      Report
     </Text>
   </View>
   <ScrollViewMock>
     <View
       style={
         Object {
-          "borderBottomColor": "#d2d2d2",
+          "borderBottomColor": "grey",
           "borderBottomWidth": 5,
           "height": 200,
           "width": "100%",
@@ -44,7 +44,7 @@ exports[`ReportScreen ReportScreen snapshot 1`] = `
       }
     >
       <Headers
-        header="Всего"
+        header="Total"
       />
       <View
         style={
@@ -125,32 +125,32 @@ exports[`ReportScreen ReportScreen snapshot 1`] = `
             <Text
               style={
                 Object {
-                  "color": "#d2d2d2",
+                  "color": "grey",
                   "fontSize": 15,
                 }
               }
             >
-              Тренировки
+              Trenings
             </Text>
             <Text
               style={
                 Object {
-                  "color": "#d2d2d2",
+                  "color": "grey",
                   "fontSize": 15,
                 }
               }
             >
-              Ккалории
+              Calories
             </Text>
             <Text
               style={
                 Object {
-                  "color": "#d2d2d2",
+                  "color": "grey",
                   "fontSize": 15,
                 }
               }
             >
-              Длительность
+              Duration
             </Text>
           </View>
         </View>
@@ -159,7 +159,7 @@ exports[`ReportScreen ReportScreen snapshot 1`] = `
     <View
       style={
         Object {
-          "borderBottomColor": "#d2d2d2",
+          "borderBottomColor": "grey",
           "borderBottomWidth": 5,
           "height": 200,
           "width": "100%",
@@ -167,13 +167,13 @@ exports[`ReportScreen ReportScreen snapshot 1`] = `
       }
     >
       <Headers
-        header="История"
+        header="History"
       />
     </View>
     <View
       style={
         Object {
-          "borderBottomColor": "#d2d2d2",
+          "borderBottomColor": "grey",
           "borderBottomWidth": 5,
           "height": 200,
           "width": "100%",
@@ -181,13 +181,13 @@ exports[`ReportScreen ReportScreen snapshot 1`] = `
       }
     >
       <Headers
-        header="Вес"
+        header="Weight"
       />
     </View>
     <View
       style={
         Object {
-          "borderBottomColor": "#d2d2d2",
+          "borderBottomColor": "grey",
           "borderBottomWidth": 5,
           "height": 200,
           "width": "100%",
@@ -195,22 +195,22 @@ exports[`ReportScreen ReportScreen snapshot 1`] = `
       }
     >
       <Items
-        title="Текущий"
+        title="Current"
         value="64.00 кг"
       />
       <Items
-        title="Самый тяжёлый"
+        title="The Heaviest"
         value="64.00 кг"
       />
       <Items
-        title="Самый лёгкий"
+        title="The easiest"
         value="64.00 кг"
       />
     </View>
     <View
       style={
         Object {
-          "borderBottomColor": "#d2d2d2",
+          "borderBottomColor": "grey",
           "borderBottomWidth": 5,
           "height": 200,
           "width": "100%",
@@ -218,16 +218,19 @@ exports[`ReportScreen ReportScreen snapshot 1`] = `
       }
     >
       <Settings
-        button="Редактировать"
-        title="ИМТ(кг/м²)"
+        button="Edit"
+        screen="Weight"
+        title="BMI(kg/m²)"
       />
       <Settings
-        button="Редактировать"
-        title="Рост"
+        button="Edit"
+        screen="Weight"
+        title="Height"
       />
       <Settings
         button="181.0 см"
-        title="Текущий"
+        screen="Weight"
+        title="Current"
       />
     </View>
   </ScrollViewMock>

@@ -1,79 +1,95 @@
-const titles = {
-    HEADER: 'СБРОСИТЬ ВЕС',
-    WARM_UP: 'Разминка',
-    GENERAL_SETTINGS: 'Общие настройки',
-    SOUND_OPTIONS: 'Голосовые Опции',
-    SUPPORT_US: 'Поддержите нас',
-    FIRST_WEEK: 'НЕДЕЛЯ 1',
-    SECOND_WEEK: 'НЕДЕЛЯ 2',
-    THIRD_WEEK: 'НЕДЕЛЯ 3',
-    FOURTH_WEEK: 'НЕДЕЛЯ 4',
-    FIRST_DAY: '1 - й День',
-    SECOND_DAY: '2 - й День',
-    THIRD_DAY: '3 - й День',
-    FOURTH_DAY: '4 - й День',
-    FIFTH_DAY: '5 - й День',
-    SIXTH_DAY: '6 - й День',
-    SEVENTH_DAY: '7 - й День',
-    I_AM: 'Я',
-    REPORT: 'Отчёт',
-    PLAN: 'План',
-    NEWBIE: 'Новичёк',
-    CONTINUING: 'Продолжающий',
-    ADVANCED: 'Продвинутый',
-    OPTIONS_1: '5-10 минут в день',
-    OPTIONS_2: '10-20 минут в день',
-    OPTIONS_3: '15-30 минут в день',
-    CHOOSE_PLAN: 'Выберите Свой План',
-    TRAINING_PLAN: 'Худейте с оптимальным планом тренировок',
-    NEXT_BUTTON: 'Cледующие',
-    I_AM_OK: 'Я в порядке',
-    NO_JUMPING: 'Без прыжков',
-    LOW_IMPACT: 'Малая ударная нагрузка',
-    PROBLEMS_WITH_KNEES: 'У вас есть проблемы с коленями?',
-    CHOOSE_HEALTH_PLAN: 'Выберите тренировку по своему состоянию',
-    ENTER: 'Вход',
-    REGISTRATION: 'Регистрация',
-    STRAP_DURATION: 'Сколько Вы можете \n простоять в планке?',
-    REGISTRATION_SUB_HEADER: 'Ваши данные помогут нам сделать ваши \n \t\t\t\t\t тренировки эффективнее',
-    STRENGTH: 'Сколько раз Вы можете отжаться?',
-    LOGIN: 'Вход',
-    USERNAME: 'Имя пользователя',
-    PASSWORD: 'Пароль',
-    CONFIRM_PASSWORD: 'Подтвердите пароль',
-    AUTHORIZATION: 'Авторизация',
-    PASSWORD_DO_NOT_MATCH: 'Пароли не совпадают',
-    REGISTER_ALERT: 'Введите данные',
-    PASSWORD_ERROR: 'Не верный пароль или имя пользователя',
-    REMINDER: 'Напоминание',
-    COUNTDOWN: 'Обратный отсчёт',
-    RELAXATION: 'Отдых при тренировке',
-    SOUND_SETTINGS: 'Настройки звука',
-    SYNCHRONIZATION_GOOGLE: 'Синхронизация с приложением Google',
-    HEALTH_DATA: 'Данные о здоровье',
-    METRIC_UNITS: 'Метрические единици измерения',
-    CHOOSE_LANGUAGE: 'Выбор Языка',
-    RESET_RESULT: 'Сбросить результаты',
-    SPEECH_TEST: 'Тест речи',
-    CHOOSE_SYNTHESIZER: 'Выбрать синтезатор речи TTS',
-    DOWNLOAD_SYNTHESIZER: 'Скачать синтезатор речи TTS',
-    SOUND_LANGUAGE: 'Голос язык',
-    DOWNLOAD_MORE_SYNTHESIZE: 'Скачать больше синтезаторов речи',
-    TTS_SETTINGS: 'TTS Настройки устройства',
-    SHARE: 'Поделиться с друзьями',
-    RATE_US: 'Оцените нас',
-    FEED_BACK: 'Отзыв',
-    PRIVACY_POLICY: 'Политика конфиденциальности',
-    TOTAL: 'Всего',
-    HISTORY: 'История',
-    WEIGHT: 'Вес',
-    TRENING: 'Тренировки',
-    CALORIES: 'Ккалории',
-    CURRENT: 'Текущий',
-    THE_HEAVIEST: 'Самый тяжёлый',
-    THE_EASIEST: 'Самый лёгкий',
-    BMI: 'ИМТ(кг/м²)',
-    HEIGHT: 'Рост',
-    EDIT: 'Редактировать',
-    DURATION: 'Длительность',
+import { userConstants } from '../_constants';
+import { userService } from '../_services';
+import { alertActions } from './';
+import { history } from '../_helpers';
+
+export const userActions = {
+    login,
+    logout,
+    register,
+    getAll,
+    delete: _delete
 };
+
+function login(username, password) {
+    return dispatch => {
+        dispatch(request({ username }));
+
+        userService.login(username, password)
+            .then(
+                user => {
+                    dispatch(success(user));
+                    history.push('/');
+                },
+                error => {
+                    dispatch(failure(error.toString()));
+                    dispatch(alertActions.error(error.toString()));
+                }
+            );
+    };
+
+    function request(user) { return { type: userConstants.LOGIN_REQUEST, user } }
+    function success(user) { return { type: userConstants.LOGIN_SUCCESS, user } }
+    function failure(error) { return { type: userConstants.LOGIN_FAILURE, error } }
+}
+
+function logout() {
+    userService.logout();
+    return { type: userConstants.LOGOUT };
+}
+
+function register(user) {
+    return dispatch => {
+        dispatch(request(user));
+
+        userService.register(user)
+            .then(
+                user => {
+                    dispatch(success());
+                    history.push('/login');
+                    dispatch(alertActions.success('Registration successful'));
+                },
+                error => {
+                    dispatch(failure(error.toString()));
+                    dispatch(alertActions.error(error.toString()));
+                }
+            );
+    };
+
+    function request(user) { return { type: userConstants.REGISTER_REQUEST, user } }
+    function success(user) { return { type: userConstants.REGISTER_SUCCESS, user } }
+    function failure(error) { return { type: userConstants.REGISTER_FAILURE, error } }
+}
+
+function getAll() {
+    return dispatch => {
+        dispatch(request());
+
+        userService.getAll()
+            .then(
+                users => dispatch(success(users)),
+                error => dispatch(failure(error.toString()))
+            );
+    };
+
+    function request() { return { type: userConstants.GETALL_REQUEST } }
+    function success(users) { return { type: userConstants.GETALL_SUCCESS, users } }
+    function failure(error) { return { type: userConstants.GETALL_FAILURE, error } }
+}
+
+// prefixed function name with underscore because delete is a reserved word in javascript
+function _delete(id) {
+    return dispatch => {
+        dispatch(request(id));
+
+        userService.delete(id)
+            .then(
+                user => dispatch(success(id)),
+                error => dispatch(failure(id, error.toString()))
+            );
+    };
+
+    function request(id) { return { type: userConstants.DELETE_REQUEST, id } }
+    function success(id) { return { type: userConstants.DELETE_SUCCESS, id } }
+    function failure(id, error) { return { type: userConstants.DELETE_FAILURE, id, error } }
+}

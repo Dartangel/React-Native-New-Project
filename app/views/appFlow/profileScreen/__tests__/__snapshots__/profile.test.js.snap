@@ -12,7 +12,7 @@ exports[`ProfileScreen ProfileScreen snapshot 1`] = `
   <View
     style={
       Object {
-        "borderBottomColor": "#d2d2d2",
+        "borderBottomColor": "grey",
         "borderBottomWidth": 3,
         "height": 50,
         "width": "100%",
@@ -29,128 +29,147 @@ exports[`ProfileScreen ProfileScreen snapshot 1`] = `
         }
       }
     >
-      Я
+      ME
     </Text>
   </View>
   <ScrollViewMock>
     <CodeBlock
-      header="Разминка"
+      header="Warm up"
       list={
         Array [
           Object {
-            "header": "Напоминание",
+            "header": "Reminder",
             "icon": "md-alarm",
+            "screen": "Reminder",
             "time": "21:00",
           },
           Object {
-            "header": "Обратный отсчёт",
+            "header": "Countdown",
             "icon": "ios-sync",
+            "screen": "Timer",
             "time": "10 сек",
           },
           Object {
-            "header": "Отдых при тренировке",
+            "header": "Training rest",
             "icon": "md-cafe",
+            "screen": "Relaxation",
             "time": "10 сек",
           },
           Object {
-            "header": "Настройки звука",
+            "header": "Sound settings",
             "icon": "md-volume-high",
+            "screen": "Sound",
             "time": null,
           },
         ]
       }
     />
     <CodeBlock
-      header="Общие настройки"
+      header="General Settings"
       list={
         Array [
           Object {
-            "header": "Синхронизация с приложением Google",
+            "header": "Synchronization with Google",
             "icon": "ios-heart",
+            "screen": "ProfileScreen",
             "time": null,
           },
           Object {
-            "header": "Данные о здоровье",
+            "header": "Health data",
             "icon": "ios-medkit",
+            "screen": "Health",
             "time": null,
           },
           Object {
-            "header": "Метрические единици измерения",
+            "header": "Metric units",
             "icon": "ios-appstore",
+            "screen": "Measuring",
             "time": null,
           },
           Object {
-            "header": "Выбор Языка",
+            "header": "Choose language",
             "icon": "ios-globe",
+            "screen": "Language",
             "time": null,
           },
           Object {
-            "header": "Сбросить результаты",
+            "header": "Reset results",
             "icon": "ios-refresh",
+            "screen": "ProfileScreen",
             "time": null,
           },
         ]
       }
     />
     <CodeBlock
-      header="Голосовые Опции"
+      header="Sound Options"
       list={
         Array [
           Object {
-            "header": "Тест речи",
+            "header": "Speech test",
             "icon": "ios-heart",
+            "screen": "ProfileScreen",
             "time": null,
           },
           Object {
-            "header": "Выбрать синтезатор речи TTS",
+            "header": "Choose speech synthesizer TTS",
             "icon": "md-settings",
+            "screen": "ProfileScreen",
             "time": null,
           },
           Object {
-            "header": "Скачать синтезатор речи TTS",
+            "header": "Download speech synthesizer TTS",
             "icon": "md-download",
+            "screen": "ProfileScreen",
             "time": null,
           },
           Object {
-            "header": "Голос язык",
+            "header": "Sound language",
             "icon": "ios-mic",
+            "screen": "ProfileScreen",
             "time": null,
           },
           Object {
-            "header": "Скачать больше синтезаторов речи",
+            "header": "Download more speech synthesizer",
             "icon": "ios-code-download",
+            "screen": "ProfileScreen",
             "time": null,
           },
           Object {
-            "header": "TTS Настройки устройства",
+            "header": "TTS Device settings",
             "icon": "ios-options",
+            "screen": "ProfileScreen",
             "time": null,
           },
         ]
       }
     />
     <CodeBlock
-      header="Поддержите нас"
+      header="Support us"
       list={
         Array [
           Object {
-            "header": "Поделиться с друзьями",
+            "header": "Share with friends",
             "icon": "md-share",
+            "screen": "ProfileScreen",
             "time": null,
           },
           Object {
-            "header": "Оцените нас",
+            "header": "Rate us",
             "icon": "md-checkbox",
+            "screen": "ProfileScreen",
             "time": null,
           },
           Object {
-            "header": "Отзыв",
+            "header": "Feedback",
             "icon": "ios-paper-plane",
+            "screen": "ProfileScreen",
             "time": null,
           },
           Object {
-            "header": "Политика конфиденциальности",
+            "header": "Privacy policy",
             "icon": "ios-eye",
+            "screen": "Policy",
             "time": null,
           },
         ]

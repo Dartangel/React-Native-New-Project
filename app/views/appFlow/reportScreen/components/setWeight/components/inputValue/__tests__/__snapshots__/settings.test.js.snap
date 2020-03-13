@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputValue InputValue snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 0.4,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 25,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ForwardRef
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "justifyContent": "flex-end",
+          "width": "70%",
+        }
+      }
+      underlineColor="grey"
+    />
+    <TouchableOpacity
+      activeOpacity={0.2}
+      delayLongPress={600}
+      extraButtonProps={
+        Object {
+          "rippleColor": "transparent",
+        }
+      }
+      style={
+        Object {
+          "backgroundColor": "#08DBA5",
+          "borderColor": "grey",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "justifyContent": "flex-end",
+          "margin": 5,
+          "padding": 5,
+        }
+      }
+    >
+      <Text>
+        Kg
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      delayLongPress={600}
+      extraButtonProps={
+        Object {
+          "rippleColor": "transparent",
+        }
+      }
+      style={
+        Object {
+          "backgroundColor": "#08DBA5",
+          "borderColor": "grey",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "justifyContent": "flex-end",
+          "margin": 5,
+          "padding": 5,
+        }
+      }
+    >
+      <Text>
+        lb
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;

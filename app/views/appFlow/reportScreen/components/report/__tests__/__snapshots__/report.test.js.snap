@@ -78,7 +78,7 @@ exports[`Report Report snapshot 1`] = `
       <Text
         style={
           Object {
-            "color": "#d2d2d2",
+            "color": "grey",
             "fontSize": 15,
           }
         }
@@ -86,7 +86,7 @@ exports[`Report Report snapshot 1`] = `
       <Text
         style={
           Object {
-            "color": "#d2d2d2",
+            "color": "grey",
             "fontSize": 15,
           }
         }
@@ -94,7 +94,7 @@ exports[`Report Report snapshot 1`] = `
       <Text
         style={
           Object {
-            "color": "#d2d2d2",
+            "color": "grey",
             "fontSize": 15,
           }
         }

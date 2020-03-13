@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weight Weight snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "height": 300,
+        "width": 300,
+      }
+    }
+  >
+    <InputValue
+      header="Weight"
+    />
+    <InputValue
+      header="Height"
+    />
+    <View
+      style={
+        Object {
+          "flex": 0.3,
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+        }
+      }
+    >
+      <OwnBtn
+        title="Cansel"
+      />
+      <OwnBtn
+        title="Save"
+      />
+    </View>
+  </View>
+</View>
+`;
