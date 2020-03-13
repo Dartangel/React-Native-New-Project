@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import styles from './style';
-import titles from '../../../../../services/constants';
+import titles from '../../../../../localization/localization';
 import InputValue from './components/inputValue';
 import OwnBtn from './components/buttons';
 

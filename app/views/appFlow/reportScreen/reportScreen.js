@@ -6,7 +6,7 @@ import Report from './components/report/report';
 import Items from './components/items/items';
 import Headers from './components/headers/headers';
 import { ROUTERS } from '../../../services/constants';
-import titles from '../../../services/constants/index';
+import titles from '../../../localization/localization';
 
 const ReportScreen = ({ navigation }) => {
 

@@ -3,7 +3,8 @@ import { Text, View } from 'react-native';
 import styles from './style';
 import { TextInput } from 'react-native-paper';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import titles, { colors } from '../../../../../../../services/constants';
+import { colors } from '../../../../../../../services/constants';
+import titles from '../../../../../../../localization/localization';
 
 const InputValue = ({ header }) => {
     return (

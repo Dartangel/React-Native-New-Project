@@ -8,7 +8,6 @@ RNNativeModules.RNGestureHandlerModule = RNNativeModules.RNGestureHandlerModule 
   createGestureHandler: jest.fn(),
   dropGestureHandler: jest.fn(),
   updateGestureHandler: jest.fn(),
-
 };
 RNNativeModules.PlatformConstants = RNNativeModules.PlatformConstants || {
   forceTouchAvailable: false

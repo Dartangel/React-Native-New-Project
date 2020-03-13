@@ -1,10 +1,9 @@
 import React from 'react';
 import styles from './style';
 import { View, Text, ScrollView } from 'react-native';
-import titles from '../../../services/constants';
+import titles from '../../../localization/localization';
 import CodeBlock from './components/codeBlock';
 import { blocks } from '../../../../__mocks__/temp';
-
 
 const ProfileScreen = ({ navigation }) => {
     return (
@@ -14,11 +13,7 @@ const ProfileScreen = ({ navigation }) => {
             </View>
             <ScrollView>
                 {blocks.map(({ arrays, header }) => {
-                    console.log(arrays);
-
-                    return (
-                        <CodeBlock list={arrays} header={header} navigation={navigation} />
-                    )
+                    return <CodeBlock list={arrays} header={header} navigation={navigation} />
                 })}
             </ScrollView>
         </View>

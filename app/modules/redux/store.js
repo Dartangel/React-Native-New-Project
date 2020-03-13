@@ -1,7 +1,7 @@
 import { applyMiddleware, createStore, compose } from 'redux';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger'
-import rootReducer from './rootReducer.js';
+import rootReducer from './rootReducer';
 import { persistStore, persistReducer } from 'redux-persist';
 import { composeWithDevTools } from 'remote-redux-devtools';
 import createSagaMiddleware from 'redux-saga'
@@ -13,7 +13,8 @@ const persistConfig = {
     storage: AsyncStorage,
     timeout: null,
     whitelist: [
-
+        'username',
+        'password'
     ],
 };
 

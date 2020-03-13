@@ -5,7 +5,7 @@ import { images } from '../../../../services/utils';
 import { ROUTERS } from '../../../../services/constants';
 import PlanSettings from './components';
 import Header from '../../../../components/header';
-import titles from '../../../../services/constants';
+import titles from '../../../../localization/localization';
 
 
 export default function KneesProblems({ navigation }) {

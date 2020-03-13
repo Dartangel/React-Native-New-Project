@@ -6,7 +6,7 @@ import SliderComponent from '../../../components/sliderComponent/index';
 import { images } from '../../../services/utils';
 import { headers, items } from '../../../../__mocks__/temp'
 import Header from './components/header/header';
-import titles from '../../../services/constants';
+import titles from '../../../localization/localization';
 import MenuItems from './components/menuItems';
 
 

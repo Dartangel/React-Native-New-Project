@@ -3,7 +3,7 @@ import styles from './styles';
 import { View, ImageBackground } from 'react-native';
 import { images } from '../../../../services/utils/index';
 import { ROUTERS } from '../../../../services/constants';
-import titles from '../../../../services/constants';
+import titles from '../../../../localization/localization';
 import FirstButtons from '../../../../components/firstButtons';
 
 export default function FirstScreen({ navigation }) {

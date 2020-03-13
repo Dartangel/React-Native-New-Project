@@ -6,7 +6,7 @@ import NextButton from '../../../../components/nextButton';
 import styles from './style';
 import { TextInputs } from './component';
 import { ScrollView } from 'react-native-gesture-handler';
-import titles from '../../../../services/constants';
+import titles from '../../../../localization/localization';
 
 export default function SignUp({ navigation }) {
 
