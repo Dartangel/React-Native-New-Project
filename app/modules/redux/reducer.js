@@ -1,16 +1,19 @@
 export const initialState = {
-    username: 'qwe',
-    password: 'qwert'
+    username: '',
+    password: ''
 }
 
-const reducer = (state = initialState, action) => {
-    console.log(action, 'asdasdasdasds')
+function reducer(state = initialState, action) {
+    console.log('Reducers is   ' + action.type)
     switch (action.type) {
         case 'Registration':
-            password = action.password
-            return ({ ...state, rpassword: JSON.stringify(password) })
+            return {
+                ...state,
+                username: action.data.username,
+                password: action.data.password
+            }
         default:
-            return state;
+            return state
     }
 }
 export default reducer
