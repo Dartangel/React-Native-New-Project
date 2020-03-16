@@ -47,7 +47,6 @@ const Registration = ({ navigation, registr }) => {
 };
 
 const mapDispatchToProps = {
-
     registr
 }
 export default connect(null, mapDispatchToProps)(Registration)

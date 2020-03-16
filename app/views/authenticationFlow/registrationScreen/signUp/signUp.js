@@ -7,23 +7,24 @@ import styles from './style';
 import { TextInputs } from './component';
 import { ScrollView } from 'react-native-gesture-handler';
 import titles from '../../../../localization/localization';
+import { connect } from 'react-redux';
 
-export default function SignUp({ navigation }) {
+const SignUp = ({ navigation, name, pass }) => {
+
+
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
     const showData = async () => {
-        let loginDetails = await AsyncStorage.getItem('loginDetails');
-        let ld = JSON.parse(loginDetails);
         if (username && password) {
-            if (ld.username == username && ld.password == password) {
+            if (name == username && pass == password) {
                 {
                     navigation.navigate(ROUTERS.MainScreen);
                 };
             }
             else {
-                alert(titles.PASSWORD_ERROR); sdfsd
+                alert(titles.PASSWORD_ERROR);
             }
         }
         else {
@@ -46,6 +47,14 @@ export default function SignUp({ navigation }) {
                 </ImageBackground>
             </ScrollView>
         </KeyboardAvoidingView>
-
     );
 };
+
+const mapStateToProps = function (state) {
+    return {
+        name: state.registration.username,
+        pass: state.registration.password
+    }
+}
+
+export default connect(mapStateToProps)(SignUp)

@@ -3,7 +3,7 @@ export const registr = (userName, pass) => {
         type: 'Registration',
         data: {
             username: userName,
-            passowrd: pass
+            password: pass
         }
     }
 }
